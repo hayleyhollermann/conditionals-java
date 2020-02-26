@@ -42,5 +42,29 @@ public class Main {
             System.out.println("he's over 18!");
         }
 
+	    // CHALLENGE
+        // 1. Create a double variable w/ val 20.00
+        double numOne = 20.00d;
+
+        // 2. Create a double variable w/ val 80.00
+        double numTwo = 80.00d;
+
+        // 3. Add both together and multiply by 100.00
+        double result = (20.00d + 80.00d) * 100.00d;
+
+        // 4. Use remainder operator to find remainder of #3 answer and 40.00
+        double remainder = result % 40.00d;
+
+        // 5. Create a boolean that assigns value true if #4 is 0 or false if not 0
+        boolean hasRemainder = (remainder != 0) ? true : false;
+
+        // 6. Output boolean value
+        System.out.println(hasRemainder);
+
+        // 7. write if-then that displays a message if there is a remainder
+        if (hasRemainder){
+            System.out.println("There is a remainder");
+        }
+
     }
 }
