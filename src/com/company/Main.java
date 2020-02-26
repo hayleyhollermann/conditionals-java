@@ -28,5 +28,19 @@ public class Main {
             System.out.println("outside of range");
         }
 
+	    boolean isCar = true;
+
+	    boolean wasCar = isCar ? true : false;
+	    if (wasCar){
+            System.out.println("IT'S A CAR!!");
+        }
+
+	    int ageOfClient = 10;
+	    boolean isEighteenOrOver = ageOfClient > 18 ? true : false;
+
+	    if (isEighteenOrOver){
+            System.out.println("he's over 18!");
+        }
+
     }
 }
