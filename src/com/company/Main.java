@@ -12,12 +12,20 @@ public class Main {
         }
 
 	    int topScore = 80;
-	    if (topScore == 100){
+	    int maxScore = 100;
+	    if (topScore == maxScore){
             System.out.println("YOU WIN");
-        } else if (topScore >= 50){
+        } else if (topScore >= 50 && topScore < maxScore){
             System.out.println("SO CLOSE");
         } else {
             System.out.println("Try harder next time!");
+        }
+
+        int minRange = -10;
+	    int maxRange = 10;
+	    int testNumber = 50;
+	    if (testNumber > maxRange || testNumber < minRange) {
+            System.out.println("outside of range");
         }
 
     }
